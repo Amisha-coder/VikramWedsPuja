@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vikram Weds Puja</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="AtulWedsShilpa">
+<meta name="keywords" content="Digital wedding invitation card, coder_amisha, amisha jaiswal">
+<meta name="author" content="Amisha Jaiswal">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Bootstrap css -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Fontawesome css -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Owl Carousel css -->
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- Rev Slider css -->
+<link rel="stylesheet" href="js/revolution-slider/css/settings.css">
+
+<!-- Style Switcher css -->
+<link rel="stylesheet" href="css/switcher.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css" id="colors">
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+<!-- PRE LOADER -->
+<!--<div class="preloader">
+  <div class="windows8">
+    <div class="wBall" id="wBall_1">
+      <div class="wInnerBall"></div>
+    </div>
+    <div class="wBall" id="wBall_2">
+      <div class="wInnerBall"></div>
+    </div>
+    <div class="wBall" id="wBall_3">
+      <div class="wInnerBall"></div>
+    </div>
+    <div class="wBall" id="wBall_4">
+      <div class="wInnerBall"></div>
+    </div>
+    <div class="wBall" id="wBall_5">
+      <div class="wInnerBall"></div>
+    </div>
+  </div>
+</div>-->
+
+<!-- Navigation Section -->
+<div class="navbar custom-navbar wow fadeInDown" data-wow-duration="2s" role="navigation" id="header">
+  <div class="container"> 
+    
+    <!-- NAVBAR HEADER -->
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> </button>
+      <!-- lOGO TEXT HERE --> 
+      <a href="index4.html" class="navbar-brand"><h1 style="margin-top: -10px;">Vikram Weds Puja</h1><!--<img src="images/logo.png" class="whtlogo" alt="" /> <img src="images/logo-2.png" class="dark-logo" alt="" />--></a> </div>
+    
+    <!-- NAVIGATION LINKS -->
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#slider" class="smoothScroll">Home</a></li>
+        <li><a href="#date" class="smoothScroll">Date</a></li>
+        <li><a href="#couple" class="smoothScroll">Couple</a></li>
+        <li><a href="#event" class="smoothScroll">Events</a></li>
+        <li><a href="#location" class="smoothScroll">Location</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Home Section -->
+<div id="home" class="section">
+  <div id="particles-js"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10 col-sm-12">
+        <div class="slide-text">
+          <h1 style="font-size:90px;"> Vikram & Puja <a href="" class="typewrite" data-period="2000" data-type='[ "Wedding", "New Life", "Marriage", "Partners Day" ]'> <span class="wrap"></span> </a> </h1>
+          <h1>Welcome to My Wedding</h1>
+          <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+          <!--<a href="#couple" class="btn btn-default section-btn">Get Started</a>--> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Countdown Section -->
+<div class="section ornabg" id="date">
+  <div class="container"> 
+    
+    <!-- Dection Title -->
+    <div class="section-title">
+      <div class="subtitle"><b style="font-size: 25px;">11 March 2023</b></div>
+      <h3>We Are Getting Married</h3>
+    </div>
+    <div class="timecounter">
+      <h3 style="font-size: 50px;" id="demo"></h3>
+
+<script>
+var countDownDate = new Date("mar 11, 2023 06:00:00").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Happy Wedding Ceremony. ";
+  }
+}, 1000);
+</script>
+    </div>
+  </div>
+</div>
+
+<!-- Bride & Groom -->
+<div class="bridegrromwrap" id="couple">
+	<h1 class="heading text-center text-danger"> शुभ  विवाह </h1>
+                    <h3 class="text-center text-success">॥ मंगलम भगवान विष्णु, मंगलम गरुड़ ध्वज।
+                         मंगलम पुण्डरीकाक्ष, मंगलाय तनो हरि॥</h3>
+                         <h1 class="display-4 mb-0 font-weight-600 text-primary text-center">Bride & Groom (वर-वधु)</h1>
+  <div class="bdgox"> <img src="images/groom.png" alt="Groom" class="animate" /> <span class="badge">Groom</span>
+  	<div class="tmbox animate text-center">
+     <h1 class="text-danger">चि. विक्रम कुमार (बिट्टू)</h1>
+            <h3>सुपुत्र- श्रीमती मुन्नी देवी एवं श्री दिलीप सिंह</h3>
+            <h1 class="text-danger">Vikram Kumar (Bittu)</h1>
+            <h3>Son of Munni devi and Dilip Sigh</h3>
+    </div>
+    <!--<div class="wdinfo">
+      <h3>Jhon Smith</h3>
+      <p>Dimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy texen book.</p>
+    </div>-->
+  </div>
+  <div class="bdgox"> <img src="images/bride.png" alt="Bride" class="animate" /> <span class="badge">Bride</span>
+  	<div class="tmbox animate text-center">
+     <h1 class="text-danger">आयु. कुमारी पूजा</h1>
+            <h3>सुपुत्री- श्रीमती शारदा देवी एवं श्री मिथलेश सिंह <br>पता: ग्राम - पुरनटाँर, पो. - प्रतापटाँर जिला- वैशाली</h3>
+            <h1 class="text-danger">Puja Kumari</h1>
+            <h3>Daughter of Sharda devi & Mithlesh Singh<br>Address: At - Purantar, post- Prataptar, District: Vaishali</h3>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+</div>
+<!-- Bride & Groom End -->
+
+<!--Story-->
+<!--<div class="section aboutwrap ornabgrt" id="story">
+  <div class="container">
+    <div class="section-title">
+      <div class="subtitle">How we meet</div>
+      <h3>Our Love Story</h3>
+    </div>
+    <ul class="lovestory">
+      <li class="item">
+        <div class="row">
+          <div class="col-md-6"><img src="images/meet-01.jpg" alt="" /></div>
+          <div class="col-md-6">
+            <div class="storybox">
+              <div class="date">22 Jan 2018</div>
+              <h4>How We Meet</h4>
+              <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="row">
+          <div class="col-md-6"><img src="images/meet-02.jpg" alt="" /></div>
+          <div class="col-md-6">
+            <div class="storybox">
+              <div class="date">22 Aug 2018</div>
+              <h4>First Kiss</h4>
+              <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="row">
+          <div class="col-md-6"><img src="images/meet-03.jpg" alt="" /></div>
+          <div class="col-md-6">
+            <div class="storybox">
+              <div class="date">22 Oct 2018</div>
+              <h4>Propose</h4>
+              <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>-->
+
+<!--Events-->
+<div class="eventsec" id="event">
+  <div class="container"> 
+    <!-- Section Title -->
+    <div class="section-title" >
+      <div class="subtitle">Here are details of</div>
+      <h3>Our Wedding Events</br> (मांगलिक  कार्यक्रम)</h3>
+      <br>
+      <h4 class="text-center text-danger mb-3">
+                              ।। वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ
+                              निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा।।
+                            </h4>
+                    <h4 class="text-center text-success">लगन मण्डप के शुभ मुहूर्त में बाग सजा  अरमानों का ! <br>
+‪‎      विक्रम-पूजा के परिणय पर स्वागत है मेहमानों का !!</h4>
+    </div>
+    <ul class="row weddingevents">
+      <li class="col-lg-6 col-md-6">
+        <div class="eventimg"><img src="https://1.bp.blogspot.com/-twV07yC7e_M/Xui5Dst7NfI/AAAAAAAAOxg/MrrUvUmJCwABltDuk3VliuX70vrgaRZ_wCNcBGAsYHQ/s1600/Ganpati-idols_l.jpg" alt="" /></div>
+        <h4 class="text text-danger">सत्यनारायण पुजा एवं घृतढारी मट्कोर <br> Satyanarayan Puja & Gritdhari Matkor</h4>
+        <div class="date"><i class="fa fa-clock-o" aria-hidden="true"></i><b style="font-size: 20px;"> 10 Mar 2023 (10 मार्च 2023 )</b></div>
+        <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i><b style="font-size: 20px;"> Friday (शुक्रवार) </b></div>
+        <!--<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> 123 big lorem road, Atlanta, GA USA.</div>-->
+      </li>
+      <!--<li class="col-lg-6 col-md-6">
+        <div class="eventimg"><img src="https://1.bp.blogspot.com/-qC-W2gVHn2Y/Xui4SfVfocI/AAAAAAAAOxY/Mk3vCSF0KVACE0qCmShybjaIccePpZtXACNcBGAsYHQ/s1600/166d14f00738edb2d3fe8e59aa4874dc.jpg" alt="" /></div>
+        <h4 class="text text-danger">Haldi (हल्दी)</h4>
+        <div class="date"><i class="fa fa-clock-o" aria-hidden="true"></i><b style="font-size: 20px;"> 26 June 2020</b></div>
+      </li>
+      <li class="col-lg-6 col-md-6">
+        <div class="eventimg"><img src="https://1.bp.blogspot.com/-twV07yC7e_M/Xui5Dst7NfI/AAAAAAAAOxg/MrrUvUmJCwABltDuk3VliuX70vrgaRZ_wCNcBGAsYHQ/s1600/Ganpati-idols_l.jpg" alt="" /></div>
+        <h4 class="text text-danger">Satyanarayan Puja (सत्यनारायण पुजा)</h4>
+        <div class="date"><i class="fa fa-clock-o" aria-hidden="true"></i><b style="font-size: 20px;"> 26 June 2020</b></div>
+      </li>-->
+      <li class="col-lg-6 col-md-6">
+        <div class="eventimg"><img src="https://1.bp.blogspot.com/-dO6HFRIrEe0/Xui6KEZoRSI/AAAAAAAAOxw/V_-wtCQlxaEGwQ1rGWgOhkxCqLnqD5X7gCNcBGAsYHQ/s1600/68997-Wedding-1910.jpeg" alt="" /></div>
+        <h4 class="text text-danger">बारात एवं शुभ विवाह <br>Wedding Ceremony</h4>
+        <div class="date"><i class="fa fa-clock-o" aria-hidden="true"></i><b style="font-size: 20px;"> 11 Mar 2023 (11 मार्च 2023 )</b></div>
+        <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i><b style="font-size: 20px;"> Saturday (शनिवार) </b></div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Parallax section -->
+<div class="parallaxsec">
+  <div class="container">
+    <div class="section-title">
+      <div class="subtitle">Lets join Us to</div>
+      <h3>Celebrate Our Wedding</h3>
+       <i class="fa fa-heart" style="color: white;"></i>
+                            <i class="fa fa-heart" style="color: white;"></i>
+                        <h2 style ="font-family: 'Laila', serif; color: white">दर्शनाभिलाषी</h2>
+                <h4 style ="font-family: 'Laila', serif; color: white">सुरेश सिंह, उमानाथ सिंह, अमरनाथ सिंह, सुनील सिंह, विश्वनाथ सिंह, राहुल कुमार <br> सिंह, धीरज, पंकज, प्रिन्स, कुनाल, मुकुल, प्रवीन, शुभम एवं समस्त परिवार|</h4><br>
+
+                <i class="fa fa-heart" style="color: white;"></i>
+                            <i class="fa fa-heart" style="color: white;"></i>
+                        <h2 style ="font-family: 'Laila', serif; color: white">आकांक्षी</h2>
+                <h4 style ="font-family: 'Laila', serif; color: white">श्री रामजन्म सिंह <br> ग्राम - असकरणपुर, पो.- बोअरिया, जिला - वैशाली <br> मो. - 09693346228</h4><br><br>
+
+                <i class="fa fa-heart" style="color: white;"></i>
+                            <i class="fa fa-heart" style="color: white;"></i>
+                        <h2 style ="font-family: 'Laila', serif; color: white">बाल आग्रह </h2>
+                <h4 style ="font-family: 'Laila', serif; color: white">Sikha Mishra-Rupesh Raj,</br> हल्दी है चन्दन है रिश्तों का बंधन है, मेले मामा की छादी में आपका अभिनन्दन है <br> - वैष्णवी </h4>
+    </div>
+  </div>
+</div>
+
+
+<!-- Tagline Section -->
+<!--<div class="taglinewrap">
+  <div class="container">
+    <div class="section-title">
+      <h3>Wedding Cermony</h3>
+    </div>
+    <p>Sed sed neque laoreet, rhoncus libero id, pharetra est. Sed ut neque est. Maecenas et est sagittis, mollis risus dignissim, mattis dolor. </p>
+    <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> 123 456 7890</a> </div>
+</div>-->
+
+<!-- Gallery Section -->
+<!--<div id="gallery" class="parallax-section">
+  <div class="container">--> 
+    <!-- SECTION TITLE -->
+    <!--<div class="section-title" >
+      <h3>Our gallery</h3>
+    </div>
+    <div class="folioNav">
+      <ul id="filter">
+        <li class="active" data-group="all">All</li>
+        <li data-group="dating">Dating</li>
+        <li data-group="wedding">Wedding</li>
+        <li data-group="photography">Photography</li>
+      </ul>
+    </div>
+  </div>
+  <div class="folioGrid" id="wordGrid">
+    <div class="folioItem" data-groups='["all", "photography", "wedding"]'> <img src="images/gallery/p1.jpg" alt=""/>
+      <div class="fI2Hover">
+        <div class="fI2content">
+          <h2><a href="singlefolio.html"  class="image-popup">Wedding Website</a></h2>
+          <div class="fI2Cats"> <a href="#">Photography</a><span>/</span><a href="#">Mobile</a> </div>
+        </div>
+      </div>
+    </div>
+    <div class="folioItem" data-groups='["all", "wedding", "dating"]'> <img src="images/gallery/p2.jpg" alt=""/>
+      <div class="fI2Hover">
+        <div class="fI2content">
+          <h2><a href="singlefolio.html">Love Marriage</a></h2>
+          <div class="fI2Cats"> <a href="#">Photography</a><span>/</span><a href="#">Development</a> </div>
+        </div>
+      </div>
+    </div>
+    <div class="folioItem" data-groups='["all", "dating", "photography"]'> <img src="images/gallery/p3.jpg" alt=""/>
+      <div class="fI2Hover">
+        <div class="fI2content">
+          <h2><a href="singlefolio.html">Wedding Planner</a></h2>
+          <div class="fI2Cats"> <a href="#">Photography</a><span>/</span><a href="#">Mobile</a> </div>
+        </div>
+      </div>
+    </div>
+    <div class="folioItem" data-groups='["all", "dating"]'> <img src="images/gallery/p4.jpg" alt=""/>
+      <div class="fI2Hover">
+        <div class="fI2content">
+          <h2><a href="singlefolio.html">Couples</a></h2>
+          <div class="fI2Cats"> <a href="#">Photography</a><span>/</span><a href="#">Mobile</a> </div>
+        </div>
+      </div>
+    </div>
+    <div class="folioItem" data-groups='["all", "photography"]'> <img src="images/gallery/p5.jpg" alt=""/>
+      <div class="fI2Hover">
+        <div class="fI2content">
+          <h2><a href="singlefolio.html">Love Story</a></h2>
+          <div class="fI2Cats"> <a href="#">Photography</a><span>/</span><a href="#">Mobile</a> </div>
+        </div>
+      </div>
+    </div>
+    <div class="folioItem" data-groups='["all", "wedding"]'> <img src="images/gallery/p6.jpg" alt=""/>
+      <div class="fI2Hover">
+        <div class="fI2content">
+          <h2><a href="singlefolio.html">Dating</a></h2>
+          <div class="fI2Cats"> <a href="#">Photography</a><span>/</span><a href="#">Mobile</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+<!-- Testimonials Section -->
+<!--<div id="testimonials">
+  <div class="container">--> 
+    
+    <!-- Section Title -->
+    <!--<div class="section-title">
+      <div class="subtitle">Our Clients Feedback</div>
+      <h3>Our Testimonials</h3>
+    </div>
+    <ul class="testimonialsList">-->
+      <!-- Client -->
+      <!--<li class="item">
+        <div class="testwrap">
+          <div class="image"><img src="images/user-1.jpg" alt="" /></div>
+          <div class="tescont">
+            <div class="clientname">Jhon Doe</div>
+            <div class="clientinfo">CEO - Company Inc</div>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra id nunc at finibus. Etiam sollicitudin faucibus cursus. Proin luctus cursus nulla sed iaculis. Quisque vestibulum augue nec aliquet aliquet."</p>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="testwrap">
+          <div class="image"><img src="images/user-1.jpg" alt="" /></div>
+          <div class="tescont">
+            <div class="clientname">Jhon Doe</div>
+            <div class="clientinfo">CEO - Company Inc</div>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra id nunc at finibus. Etiam sollicitudin faucibus cursus. Proin luctus cursus nulla sed iaculis. Quisque vestibulum augue nec aliquet aliquet."</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>-->
+
+<!-- Blog Section -->
+<!--<div id="blog">
+  <div class="container"> -->
+    <!-- SECTION TITLE -->
+    <!--<div class="section-title" >
+      <div class="subtitle">Latest News Feeds</div>
+      <h3>From Our Blog</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+    </div>
+    <ul class="blogGrid">
+      <li class="item">
+        <div class="int">--> 
+          <!-- Blog Image -->
+          <!--<div class="postimg"> <img src="images/blog/1.jpg" alt="Blog Title"></div>-->
+          <!-- Blog info -->
+          <!--<div class="post-header">
+            <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> Sep 25, 2018</div>
+            <h4><a href="#.">Duis ultricies aliquet mauris</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu nulla eget nisl dapibus finibus maecenas quis sem ...</p>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="int">--> 
+          <!-- Blog Image -->
+          <!--<div class="postimg"> <img src="images/blog/2.jpg" alt="Blog Title"></div>-->
+          <!-- Blog info -->
+          <!--<div class="post-header">
+            <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> Sep 25, 2018</div>
+            <h4><a href="#.">Duis ultricies aliquet mauris</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu nulla eget nisl dapibus finibus maecenas quis sem ...</p>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="int">--> 
+          <!-- Blog Image -->
+          <!--<div class="postimg"> <img src="images/blog/3.jpg" alt="Blog Title"></div>-->
+          <!-- Blog info -->
+          <!--<div class="post-header">
+            <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> Sep 25, 2018</div>
+            <h4><a href="#.">Duis ultricies aliquet mauris</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu nulla eget nisl dapibus finibus maecenas quis sem ...</p>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="int">--> 
+          <!-- Blog Image -->
+          <!--<div class="postimg"> <img src="images/blog/1.jpg" alt="Blog Title"></div>-->
+          <!-- Blog info -->
+          <!--<div class="post-header">
+            <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> Sep 25, 2018</div>
+            <h4><a href="#.">Duis ultricies aliquet mauris</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu nulla eget nisl dapibus finibus maecenas quis sem ...</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>-->
+
+<!-- Contact Section -->
+<!--<div id="contact">
+  <div class="container">--> 
+    <!-- CONTACT FORM HERE -->
+    <!--<div class="section-title">
+      <div class="subtitle">Get a Free Quote</div>
+      <h3>Contact Us</h3>
+    </div>
+    <div class="contact-form">
+      <form id="contact-form" class="row">
+        <div class="col-md-6 col-sm-6">
+          <input type="text" class="form-control" name="name" placeholder="Name">
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <input type="email" class="form-control" name="email" placeholder="Email">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <input type="tel" class="form-control" name="phone" placeholder="Phone">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <input type="text" class="form-control" name="phone" placeholder="Address">
+        </div>
+        <div class="col-md-12 col-sm-12">
+          <textarea class="form-control" rows="5" name="message" placeholder="Message"></textarea>
+        </div>
+        <div class="col-md-12">
+          <button id="submit" type="submit" name="submit">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>-->
+
+<center><h4 class="text-center"><b><span> नोट:- </span> बारात मेरे निवास स्थान असकरणपुर से आरक्षित वाहन द्वारा संध्या 5 बजे प्रतापटाँर के लिए प्रस्थान करेगी |</b></h4>
+	<audio controls autoplay> <source src="song.mp3" type="audio/mpeg"> </audio></center>
+
+<!-- Google Map Section -->
+<div class="gmap">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14352.263172708848!2d84.77796547015795!3d25.93306438405904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992b7eefdfce801%3A0x441e3ef9e788d9b6!2sAskaranpur%2C%20Bihar!5e0!3m2!1sen!2sin!4v1670412636547!5m2!1sen!2sin" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div><br>
+
+<!-- Footer Section -->
+<footer>
+  <div class="container"> 
+    <!-- social Section -->
+    <div class="socialLinks" > <a href="whatsapp://send?text= स्नेह गगन में दीप जले जले, आशा का अरुणोदय हो। 
+मिलन आज हो तरुण ह्रदय का , जीवन मधुरमय मंगल हो।।चिरंजीवी विक्रम एवं आयुष्मती पूजा के पावन परिणोत्सव 
+की मधुर बेला में आपकी स्नेहमयी उपस्थिति एवं
+वर वधु के भावी जीवन को मंगलकामना हेतु
+आशीर्वचनों की कामना के साथ - इस ब्लू लाइन पर क्लिक करें - https://bit.ly/3e5Q8zK" data-action="share/whatsapp/share"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="footer-copyright">
+          <p>&copy; 2022 | All Rights Reserved.</p>
+          <h2 style="color: white;">Design by <a href="tel: 918227845066">Anuj Singh</a></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Color Switcher -->
+<!--<div id="style-switcher" style="left: 0px;">
+  <h2>Choose Your Color<a href="#"><i class="fa fa-cog fa-spin"></i></a></h2>
+  <div>
+    <ul class="colors" id="color1">
+      <li><a href="#" class="green"></a></li>
+      <li><a href="#" class="blue"></a></li>
+      <li><a href="#" class="purple"></a></li>
+      <li><a href="#" class="orange"></a></li>
+      <li><a href="#" class="yellow"></a></li>
+      <li><a href="#" class="nvblue"></a></li>
+      <li><a href="#" class="redcl"></a></li>
+      <li><a href="#" class="pink"></a></li>
+    </ul>
+  </div>
+</div>-->
+
+<!-- Bootstrap --> 
+<script src="js/jquery-2.1.4.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!-- Carousel --> 
+<script src="js/owl.carousel.js"></script> 
+
+<!-- Parallax --> 
+<script src="js/jquery.parallax.js"></script> 
+
+<!-- Sticky Header --> 
+<script src="js/jquery.sticky.js"></script> 
+
+<!-- Particles --> 
+<script src="js/revolution-slider/particles.js"></script> 
+<script src="js/particles-function.js"></script> 
+
+<!-- Counter --> 
+<script src="js/smoothscroll.js"></script> 
+
+<!-- Counter --> 
+<script src="js/jquery.shuffle.min.js"></script> 
+
+<!-- Revolution Slider --> 
+<script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script> 
+
+<!-- Custom --> 
+<script src="js/countdown.js"></script> 
+
+<!-- Switcher --> 
+<script src="js/switcher.js"></script> 
+
+<!-- Custom --> 
+<script src="js/custom.js"></script>
+</body>
+</html>
